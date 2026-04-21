@@ -258,19 +258,17 @@ img {
 .home__image {
   width: 240px;
   height: 240px;
-  background-color: var(--white-color);
   border-radius: 50%;
   overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
   border: 5px solid var(--first-color);
-  box-shadow: 0 8px 32px hsla(var(--hue), 80%, 48%, 0.3);
 }
 
 .home__img {
-  width: 200px;
-  filter: drop-shadow(0 4px 16px hsla(0, 0%, 0%, 0.2));
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center top !important;
+  border-radius: 50%;
 }
 
 .home__social {
